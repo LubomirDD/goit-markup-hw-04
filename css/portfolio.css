@@ -1,0 +1,281 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
+
+:root {
+  --accent-color: #2196f3;
+  --header-grey: #757575;
+  --project-black: #212121;
+}
+
+/* <!-- Шапка/HEADER -------------------------------------------> */
+
+.header {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.logo-part-1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-part-2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-item + .header-item {
+  margin-left: 50px;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--project-black);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  margin-left: auto;
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--header-grey);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--header-grey);
+  margin-left: 50px;
+}
+
+/* Фильтры/FILTERS------------------------------------------------ */
+
+.filters {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.filters-button-container {
+  margin-bottom: 50px;
+}
+
+.filters-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters-item {
+  margin-left: 8px;
+}
+
+.filters-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--project-black);
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: white;
+  background-color: var(--accent-color);
+}
+
+/* Продукты/PRODUCTS------------------------------------------------ */
+
+.products-list {
+  display: flex;
+  margin-left: -30px;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+}
+
+.products-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
+.product-text-container {
+  padding-left: 24px;
+  padding: 20px;
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--project-black);
+  /* padding-top: 20px; */
+  padding-bottom: 4px;
+  /* padding-left: 24px; */
+}
+
+.product {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--header-grey);
+  /* padding-left: 24px; */
+  /* padding-bottom: 20px; */
+}
+
+/* Футер/FOOTER--------------------------------------------- */
+
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* .footer-logo { */
+/* padding-top: 60px; */
+/* } */
+
+.logo-part-3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-list {
+  padding-top: 20px;
+}
+
+.footer-item {
+  margin-bottom: 9px;
+}
+
+.footer-mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
