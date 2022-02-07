@@ -139,6 +139,10 @@ ul {
   fill: var(--accent-color);
 }
 
+.header-mail:focus .header-icon {
+  fill: var(--accent-color);
+}
+
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
@@ -159,6 +163,10 @@ ul {
 }
 
 .header-tel:hover .header-icon {
+  fill: var(--accent-color);
+}
+
+.header-tel:focus .header-icon {
   fill: var(--accent-color);
 }
 
@@ -218,6 +226,7 @@ ul {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   width: 200px;
   height: 50px;
 }
@@ -384,11 +393,16 @@ ul {
   fill: #afb1b8;
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--accent-color);
 }
 
 .team-social-link:hover .team-social-icon {
+  fill: white;
+}
+
+.team-social-link:focus .team-social-icon {
   fill: white;
 }
 
@@ -441,6 +455,11 @@ ul {
 }
 
 .clients-item-link:hover .clients-logo {
+  fill: var(--accent-color);
+  border-color: #afb1b8;
+}
+
+.clients-item-link:focus .clients-logo {
   fill: var(--accent-color);
   border-color: #afb1b8;
 }
